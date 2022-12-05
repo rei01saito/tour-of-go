@@ -1,0 +1,7 @@
+services:
+  app:
+    container_name: tour_of_go
+    build: .
+    tty: true
+    volumes: 
+      - ./app:/usr/src/app
