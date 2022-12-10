@@ -8,3 +8,5 @@ stop:
 	docker-compose stop
 down:
 	docker-compose down --rmi all --volumes --remove-orphans
+shell:
+	docker-compose exec app sh
